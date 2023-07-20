@@ -1,0 +1,68 @@
+1:stack:
+A stack is a linear data structure that stores items in a Last-In/First-Out (LIFO) or First-In/Last-Out (FILO) manner. In stack, a new element is added at one end and an element is removed from that end only. The insert and delete operations are often called push and pop.
+
+2:Queue:
+Like stack, queue is a linear data structure that stores items in First In First Out (FIFO) manner. With a queue the least recently added item is removed first. A good example of queue is any queue of consumers for a resource where the consumer that came first is served first.
+
+3:circular queue:
+A circular queue is the extended version of a regular queue where the last element is connected to the first element. Thus forming a circle-like structure.The circular queue solves the major limitation of the normal queue. In a normal queue, after a bit of insertion and deletion, there will be non-usable empty space.
+
+Priority Queue:
+A priority queue is a special type of queue in which each element is associated with a priority value. And, elements are served on the basis of their priority. That is, higher priority elements are served first.
+
+4:Linklist:
+A linked list is a sequence of data elements, which are connected together via links. Each data element contains a connection to another data element in form of a pointer.
+
+5:Doubly Linklist:
+A doubly linked list (DLL) is a special type of linked list in which each node contains a pointer to the previous node as well as the next node of the linked list.
+
+6:Circular Linklist:
+The circular linked list is a linked list where all nodes are connected to form a circle. In a circular linked list, the first node and the last node are connected to each other which forms a circle. There is no NULL at the end.
+
+7:Binary Tree:
+Binary Tree is defined as a tree data structure where each node has at most 2 children. Since each element in a binary tree can have only 2 children, we typically name them the left and right child.
+
+8:Complete Binary Tree:
+A complete binary tree is a special type of binary tree where all the levels of the tree are filled completely except the lowest level nodes which are filled from as left as possible.
+
+9:Perfect Binary Tree?
+A perfect binary tree is a special type of binary tree in which all the leaf nodes are at the same depth, and all non-leaf nodes have two children. In simple terms, this means that all leaf nodes are at the maximum depth of the tree, and the tree is completely filled with no gaps.
+
+10:Binary Search Tree?
+Binary Search Tree is a node-based binary tree data structure which has the following properties:
+The left subtree of a node contains only nodes with keys lesser than the node’s key.
+The right subtree of a node contains only nodes with keys greater than the node’s key.
+The left and right subtree each must also be a binary search tree.
+
+11:Graph:
+A graph is a pictorial representation of a set of objects where some pairs of objects are connected by links. The interconnected objects are represented by points termed as vertices, and the links that connect the vertices are called edges.
+
+
+12:BFS:
+Traversal means visiting all the nodes of a graph. Breadth First Traversal or Breadth First Search is a recursive algorithm for searching all the vertices of a graph or tree data structure.
+BFS algorithm
+A standard BFS implementation puts each vertex of the graph into one of two categories:
+Visited
+Not Visited
+
+13:DFS:
+Depth first Search or Depth first traversal is a recursive algorithm for searching all the vertices of a graph or tree data structure. Traversal means visiting all the nodes of a graph.
+
+14:BUBBLE SORT:
+Bubble sort is a sorting algorithm that compares two adjacent elements and swaps them until they are in the intended order.
+
+15:SELECTION SORT:
+Selection sort is a sorting algorithm that selects the smallest element from an unsorted list in each iteration and places that element at the beginning of the unsorted list.
+
+16:Insertion Sort:
+Insertion sort is a sorting algorithm that places an unsorted element at its suitable place in each iteration.
+Insertion sort works similarly as we sort cards in our hand in a card game.
+We assume that the first card is already sorted then, we select an unsorted card. If the unsorted card is greater than the card in hand, it is placed on the right otherwise, to the left. In the same way, other unsorted cards are taken and put in their right place.
+
+
+17:Linear Search:
+Linear search is a sequential searching algorithm where we start from one end and check every element of the list until the desired element is found. It is the simplest searching algorithm.
+
+18:Binary Search:
+Binary Search is a searching algorithm for finding an element's position in a sorted array.
+In this approach, the element is always searched in the middle of a portion of an array.
